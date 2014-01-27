@@ -1,0 +1,33 @@
+﻿body {
+    background-image:url(images/bg.png);
+    background-repeat: repeat;
+}
+
+#content {
+    background-color:#fff;
+}
+
+#footer {
+    /*background-color:#f00;*/
+}
+
+.img-home {
+    padding:2px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow:2px 2px 3px #aaaaaa;
+}
+
+.btn-home {
+    font-size:16px;
+}
+
+.btn-instagram {
+    background-color:#f00;
+    color:#fff;
+}
+
+.btn-pinterest {
+    background-color:#00f;
+    color:#fff;
+}
