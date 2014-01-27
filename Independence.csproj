@@ -133,6 +133,7 @@
     <Content Include="Content\images\D.png" />
     <Content Include="Content\images\E.png" />
     <Content Include="Content\images\logo.png" />
+    <Content Include="Content\images\page-bg.png" />
     <Content Include="Content\site-design.css" />
     <Content Include="Content\site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />

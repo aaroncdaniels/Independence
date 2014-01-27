@@ -17,66 +17,41 @@ body {
 #content {
   min-height: 100%;
   height: auto;
+  width:750px;
   /* Negative indent footer by its height */
-  margin: 0px 100px -60px 100px;
+  margin: -111px auto -30px auto;
   /* Pad bottom by footer height */
-  padding: 0px 0 60px 0;
+  padding: 111px 0px 30px 0px;
+}
+
+#page {
+    padding:0 25px 0 25px;
 }
 
 /* Set the fixed height of the footer here */
 #footer {
-  height: 60px;
+  height: 30px;
 }
 
-#footer-content {
+#footer-right {
+    text-align:right;
     float:right;
-    vertical-align:middle;
 }
 
 
-/* Customize the nav-justified links to be fill the entire space of the .navbar */
-
-/*.nav-justified {
-  border-radius: 5px;
-  border: 1px solid #ccc;
-}*/
 .nav-justified > li > a {
   margin-bottom: 0;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
 }
-.nav-justified > .active > a,
-.nav-justified > .active > a:hover,
-.nav-justified > .active > a:focus {
-  
-}
-/*.nav-justified > li:first-child > a {
-  border-radius: 5px 5px 0 0;
-}
-.nav-justified > li:last-child > a {
-  border-bottom: 0;
-  border-radius: 0 0 5px 5px;
-}*/
 
 @media (min-width: 768px) {
   .nav-justified {
     max-height: 42px;
+    padding:5px 25px 0px 25px;
   }
-  /*.nav-justified > li > a {
-    border-left: 1px solid #fff;
-    border-right: 1px solid #d5d5d5;
-  }
-  .nav-justified > li:first-child > a {
-    border-left: 0;
-    border-radius: 5px 0 0 5px;
-  }
-  .nav-justified > li:last-child > a {
-    border-radius: 0 5px 5px 0;
-    border-right: 0;
-  }*/
 }
-
 
 .center {
     float: none; 
@@ -85,7 +60,7 @@ body {
 }
 
 .image-cell {
-    padding:15px;
+    padding:5px;    
 }
 
 .col-right {
@@ -94,7 +69,7 @@ body {
 
 .btn-home {
     padding:15px;
-    width:100%;
+    width:90%;
+    border-radius:0;
 }
-
-.e {padding-bottom:15px;}
+.e {padding-bottom:5px;}

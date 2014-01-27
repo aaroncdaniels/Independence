@@ -16,31 +16,36 @@
 </head>
 <body>
     <div class="row center logo">
-             <a href="home">
-                <img src="~/Content/images/logo.png" class="img-responsive" alt="Rachel Watson Makeup Artistry" />
-            </a>
+        <a href="home">
+            <img src="~/Content/images/logo.png" class="img-responsive" alt="Rachel Watson Makeup Artistry" />
+        </a>
     </div>
     <div id="content">
         <div class="container">
             <div id="navbar" class="row">
                 <ul class="nav nav-justified">
+                    <li><a href="home">Home</a></li>
                     <li><a href="about">About</a></li>
                     <li><a href="services">Services</a></li>
                     <li><a href="portfolio">Portfolio</a></li>
                     <li><a href="contact">Contact</a></li>
                 </ul>
             </div>
-            <div class="row">
+            <div id="page" class="row">
                 @RenderBody()
             </div>
         </div>
     </div>
     <div id="footer">
         <div class="container">
-            <div id="footer-content">
-                <p>Site designed by Kelly Daniels - 2014</p>
+            <div class="row">
+                <div id="footer-left" class="col-md-6">
+                    <span>&copy; Rachel Watson @System.DateTime.Now.Year.ToString()</span>
+                </div>
+                <div id="footer-right" class="col-md-6">
+                    <span>Design by Kelly Daniels</span>
+                </div>
             </div>
-
         </div>
     </div>
     <!-- /container -->
